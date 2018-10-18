@@ -1,10 +1,10 @@
 package com.cpe.sa.main;
-import com.cpe.sa.main.Entity.DiseaseEntity;
-import com.cpe.sa.main.Entity.PrefixEntity;
-import com.cpe.sa.main.Entity.SexEntity;
-import com.cpe.sa.main.Repository.DiseaseRepository;
-import com.cpe.sa.main.Repository.PrefixRepository;
-import com.cpe.sa.main.Repository.SexRepository;
+import com.cpe.sa.main.entity.DiseaseEntity;
+import com.cpe.sa.main.entity.PrefixEntity;
+import com.cpe.sa.main.entity.SexEntity;
+import com.cpe.sa.main.repository.DiseaseRepository;
+import com.cpe.sa.main.repository.PrefixRepository;
+import com.cpe.sa.main.repository.SexRepository;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -79,7 +79,7 @@ public class ServerApplication {
 			diseaseRepository.save(diseaseEntity4);
 			diseaseRepository.save(diseaseEntity5);
 
-				};
+			};
 	}
 }
 

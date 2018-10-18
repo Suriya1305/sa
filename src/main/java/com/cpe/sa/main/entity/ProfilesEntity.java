@@ -1,11 +1,11 @@
-package com.cpe.sa.main.Entity;
+package com.cpe.sa.main.entity;
 
 import lombok.*;
 import javax.persistence.*;
 import javax.persistence.Id;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
-import javax.persistence.SequenceGenerator;
+
 @Entity
 @Data
 @ToString
